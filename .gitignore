@@ -1,0 +1,49 @@
+# --- data (never commit raw or large data) ---
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.bam
+*.bai
+*.sam
+*.bw
+*.bigwig
+*.bed
+*.bdg
+*.narrowPeak
+*.broadPeak
+*.rds
+*.RDS
+*.h5ad
+*.h5
+*.raw
+*.mzML
+*.mzXML
+*.zip
+
+# --- analysis output ---
+results/
+output/
+figures/
+*.log
+nohup.out
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user
+.Rapp.history
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
